@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <script type="text/javascript" src="script.js"></script>
+     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
     <title>Animal List</title>
   </head>
@@ -10,6 +11,10 @@
       <button id = "createList" onclick = "makeList()">Create Animal List</button>
       <div class="content" id="content">
       </div>
+      <div id="add-form">
+        <input type="text" id="text-box" placeholder="Add more animal">
+        <button id="add" display="none" onclick="addAnimal()">Add</button>
+      </div>
   </body>
-  
+
 </html>
