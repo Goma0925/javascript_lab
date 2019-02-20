@@ -15,6 +15,5 @@ var makeList = function()
     li.innerText = d;
     content.appendChild(list);
     list.appendChild(li);
-
   });
 }
